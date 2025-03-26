@@ -1,12 +1,16 @@
 # mips32-toolchain
 ## Dependencies:
 Install Clang. Relatively old versions are fine.
+
 Install qemu (user) (`sudo apt install qemu-system-mips qemu-user`).
+
 Install Make.
+
 
 ### Building
 1. Download and extract musl:
 `wget https://musl.libc.org/releases/musl-1.2.4.tar.gz`
+
 `tar -xvf musl-1.2.4.tar.gz`
 
 2. Build musl:
